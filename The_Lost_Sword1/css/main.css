@@ -1,0 +1,189 @@
+﻿/*<!--Author: Diego Rodriguez-->
+<!--Date: 5/23/2015-->
+<!--Versio: 1.0-->
+<!--The Lost Sword-->
+*/
+
+body {
+    background-image: url('../assets/images/great_sword.jpg');
+
+}
+
+.impress-enable .step{
+    margin: 0;
+    opacity: 0.0;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    transition: background 1s;
+}
+
+impress-enable .step.active {
+    opacity: 1
+}
+
+.slide {
+    display: block;
+    width: 700px;
+    height: 600px;
+    padding: 40px 60px;
+    background-color: white;
+    border: 1px solid rgba(0,0,0,0.3);
+    color: rgb(52,52,52);
+    text-shadow: 0 2px 2px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    font-family: 'Britannic',"Open Sans", Arial, sans-serif;
+    font-size:30px;
+}
+
+/*First slide*/
+#start{
+opacity:0.7; /*Give the opacity to the slide*/
+
+}
+
+/*Two*/
+#two {
+    opacity:1;
+    background-color: rgb(52,52,52);
+    color:white;
+    background-image: url('../assets/images/town.jpg');
+}
+
+/*Three*/
+#three {
+    background-color: rgb(52,52,52);
+    color: white;
+    background-image: url('../assets/images/dark_forest.jpg');
+}
+
+
+/*forth*/
+#forth {
+    background-color: rgb(52,52,52);
+    color: white;
+    background-image: url('../assets/images/enchanted_ruins.jpg');
+}
+
+/*five*/
+#five {
+    background-color: rgb(52,52,52);
+    color: white;
+    background-image: url('../assets/images/forgotten_swamps.jpg');
+}
+
+/*six*/
+#six {
+    background-color: rgb(52,52,52);
+    color: white;
+    background-image: url('../assets/images/mountains_of_fire.jpg');
+}
+
+/*seven*/
+#seven {
+    background-color: rgb(52,52,52);
+    color: white;
+    background-image: url('../assets/images/river_of_desires.jpg');
+}
+
+/*eight*/
+#eight {
+    background-color: rgb(52,52,52);
+    color: white;
+    background-image: url('../assets/images/endless_plains.jpg');
+}
+
+/*nine*/
+#nine {
+    background-color: rgb(52,52,52);
+    color: white;
+    background-image: url('../assets/images/castle_black.jpg');
+}
+
+/*ten*/
+#ten {
+    background-color: rgb(52,52,52);
+    color: white;
+    text-shadow: 2px 2px 2px rgb(52,52,52);
+    background-image: url('../assets/images/temple_of_the_seven.jpg');
+}
+
+/*eight*/
+#eleven {
+    background-color: rgb(52,52,52);
+    color: white;
+    background-image: url('../assets/images/lava_path.jpg');
+}
+
+/*twelve*/
+#twelve {
+    background-color: rgb(52,52,52);
+    color: white;
+    background-image: url('../assets/images/dwarf_mines.jpg');
+}
+
+/*thirteen*/
+#thirteen {
+    background-color: rgb(52,52,52);
+    color: white;
+    background-image: url('../assets/images/frozen_land.png');
+}
+
+/*fourteen*/
+#fourteen {
+    background-color: rgb(52,52,52);
+    color: white;
+    background-image: url('../assets/images/dwarf_mines.jpg');
+}
+
+/*fifteen*/
+#fifteen {
+    background-color: rgb(52,52,52);
+    color: white;
+    background-image: url('../assets/images/frozen_land.png');
+}
+
+/*sixteen*/
+#sixteen {
+    background-color: rgb(52,52,52);
+    color: white;
+    text-shadow: 2px 2px 2px rgb(52,52,52);
+    background-image: url('../assets/images/great_desert.jpg');
+}
+
+/*seventeen*/
+#seventeen {
+    background-color: rgb(52,52,52);
+    color: white;    
+    text-shadow: 2px 2px 2px rgb(52,52,52);
+    background-image: url('../assets/images/valley_of_ashes.jpg');
+}
+
+/*Styling for slide paragraphs*/
+.slide p{
+    margin-top:15px;
+    margin-bottom:30px;
+    line-height:45px;
+}
+
+/*Styling links to look like buttons*/
+.slide a, .slide a:visited{
+    color: #f3d8d8;
+    text-decoration: none;
+    background-color: #ec340d;
+    padding:5px;
+    border-radius:5px;
+    border:1px solid #88311c;
+}
+
+.slide a:hover, .slide a:active{
+    background-color: #ed867e;
+}
+
+/*Styling for slide text area*/
+.slide .slide-text{
+    height:450px;
+}
+
+
